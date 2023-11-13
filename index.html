@@ -48,12 +48,12 @@
     PROBLEM 5 (DEBUGGING): The following commented code is supposed to print out the first three elements of an array, but it's not working. Uncomment the code and fix the issue. Check your results in the console.
     */
 
-    // const debuggingNumbers = [1,2,3,4,5];
-    // debuggingNumbers.forEach((num, index) => {
-    //   if(index <= 3) {
-    //     console.log(num)
-    //   }
-    // })
+    const debuggingNumbers = [1,2,3,4,5];
+    debuggingNumbers.forEach((num, index) => {
+      if(index < 3) { // change <= to < for end index
+        console.log(num)
+      }
+    });
     
   </script> 
   <section style="border: 2px solid blue; border-radius: 5px; padding: 10px; box-shadow: 5px 3px 3px orange; margin-top: 20px;">
